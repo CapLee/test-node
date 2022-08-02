@@ -22,7 +22,12 @@ app.use(async (ctx, next) => {
 // response
 
 app.use(async ctx => {
-	ctx.body = 'Hello World';
+	ctx.body = {
+		success: true,
+		data: {
+			text: 'Hello Docker'
+		}
+	};
 });
 
 app.listen(8080);
