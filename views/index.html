@@ -1,21 +1,606 @@
-<!--
- * @Author: 李一鸣(3005297543@qq.com)
- * @Date: 2022/8/3 16:08
- * @Content:
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title></title>
-	<link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
 <div class="wrapper">
-	<h1>welcome my boy!!</h1>
+    <div class="header">
+        <div>
+            <a href=" http://www.hkbu.edu.hk/eng/main/" target="_blank">
+                <img src="./images/logo-blue_1.png" alt="" class="logo-img">
+            </a>
+            <a href=" https://www.cie.hkbu.edu.hk/main/en/" target="_blank">
+                <img src="./images/logo-blue_2.png" alt="" class="logo-img">
+            </a>
+        </div>
+        <div class="nav">
+                <a href="./index.html" class="nav-item active">Home</a>
+                <div class="nav-item">
+                    About Us
+                    <div class="dropdown-menu">
+                        <a href="./about-silver.html">About SILVER</a>
+                        <a href="./about-qess.html">About QESS</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    Courses
+                    <div class="dropdown-menu">
+                        <a href="./chemistry.html">Chemistry</a>
+                        <a href="./biology.html">Biology</a>
+                        <a href="./lab-safety.html">Lab Safety</a>
+                    </div>
+                </div>
+                <a href="./news.html" class="nav-item">News</a>
+                <!--<a href="./login.html" class="login">Login / Sign up</a>-->
+                <div class="nav-item user">
+                    <img src="./images/avatar.png" alt="">
+                    <div class="username" style="line-height: 24px;">CHAN TAI MAN</div>
+                    <div class="dropdown-menu">
+                        <a href="./chemistry.html">Dashboard</a>
+                        <a href="./biology.html">Setting</a>
+                        <a href="">Logout</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="contant">
+        <div class="home-banner">
+            <img class="banner-img" src="./images/home-banner.png" alt="">
+        </div>
+        <div class="indexexp">
+            <h2>Courses</h2>
+            <em></em>
+            <div class="course-container">
+                <div class="swiper-button-prev course-prev-btn"></div>
+                <div class="indexexplist swiper-container course-swiper">
+                    <div class="exprow swiper-wrapper">
+                        <div class="exprows swiper-slide" id="expbut1">
+                            <a href="javascript:void(0)">
+                                <img class="exprowimg" src="images/replace/Module1.jpg" width="380" alt="img">
+                                <div class="course-title">Chemistry</div>
+                            </a>
+                        </div>
+                        <div class="exprows swiper-slide" id="expbut2">
+                            <a href="javascript:void(0)">
+                                <img class="exprowimg" src="images/replace/Module2.jpg" width="380" alt="img">
+                                <div class="course-title">Biology</div>
+                            </a>
+                        </div>
+                        <div class="exprows swiper-slide" id="expbut3">
+                            <a href="javascript:void(0)">
+                                <img class="exprowimg" src="images/replace/Module3.jpg" width="380" alt="img">
+                                <div class="course-title">Lab Safety</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next course-next-btn"></div>
+            </div>
+            <div class="indexitem">
+                <div class="up-wrapper">
+                    <img class="up" src="images/up.png" width="23" alt="img">
+                </div>
+                <div class="itemli expbut1">
+                    <div class="swiper-button-prev prev2"></div><!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
+                    <div class="itemliw1200">
+                        <h3>Chemistry</h3>
+                        <div class="swiper-container" id="expbut1s">
+                            <ul class="itemlist swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module4.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit1</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module6.png" alt="img">
+                                        <div class="module">Module 2</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit2</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module7.png" alt="img">
+                                        <div class="module">Module 3</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit3</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module5.png" alt="img">
+                                        <div class="module">Module 4</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit4</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href=
+                                               "javascript:void(0)">
+                                        <img src="images/replace/Module4.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit1</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href=
+                                               "javascript:void(0)">
+                                        <img src="images/replace/Module6.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit2</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="swiper-pagination swp2"></div><!--分页器。如果放置在swiper-container外面，需要自定义样式。-->
+                    </div>
+                    <div class="swiper-button-next next2"></div><!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
+                </div>
+                <div class="itemli expbut2">
+                    <div class="swiper-button-prev prev3"></div><!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
+                    <div class="itemliw1200">
+                        <h3>Biology</h3>
+                        <div class="swiper-container" id="expbut2s">
+                            <ul class="itemlist swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module4.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit1</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module6.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit2</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module7.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit3</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module5.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit4</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module4.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit1</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module6.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit2</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="swiper-pagination swp3"></div><!--分页器。如果放置在swiper-container外面，需要自定义样式。-->
+                    </div>
+                    <div class="swiper-button-next next3"></div><!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
+                </div>
+                <div class="itemli expbut3">
+                    <div class="swiper-button-prev prev4"></div><!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
+                    <div class="itemliw1200">
+                        <h3>Lab Safety</h3>
+                        <div class="swiper-container" id="expbut3s">
+                            <ul class="itemlist swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module4.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit1</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module6.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit2</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module7.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit3</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module5.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit4</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module4.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit1</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="images/replace/Module6.png" alt="img">
+                                        <div class="module">Module 1</div>
+                                        <div class="itemtxt">
+                                            <h4>Unit2</h4>
+                                            <p>
+                                                VRLab Academy will offer great project
+                                                on Artificial Intelligence VR Experiments
+                                                VRLab Academy will offer great .
+                                            </p>
+                                        </div>
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="swiper-pagination swp4"></div><!--分页器。如果放置在swiper-container外面，需要自定义样式。-->
+                    </div>
+                    <div class="swiper-button-next next4"></div><!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
+                </div>
+            </div>
+            <div class="indexnews">
+                <h2>News</h2>
+                <em></em>
+                <div class="news-container">
+                    <div class="swiper-button-prev news-prev-btn"></div>
+                    <div class="itemliw1200 swiper-container news-swiper">
+                        <ul class="itemlist swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a href="javascript:void(0)">
+                                    <img src="images/replace/Module4.png" alt="img">
+                                    <div class="itemtxt">
+                                        <h4>Chemistry news</h4>
+                                        <p>01 Aug 2020</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="javascript:void(0)">
+                                    <img src="images/replace/Module6.png" alt="img">
+                                    <div class="itemtxt">
+                                        <h4>Chemistry news</h4>
+                                        <p>01 Aug 2020</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="javascript:void(0)">
+                                    <img src="images/replace/Module7.png" alt="img">
+                                    <div class="itemtxt">
+                                        <h4>Chemistry news</h4>
+                                        <p>01 Aug 2020</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="javascript:void(0)">
+                                    <img src="images/replace/Module5.png" alt="img">
+                                    <div class="itemtxt">
+                                        <h4>Chemistry news</h4>
+                                        <p>01 Aug 2020</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-button-next news-next-btn"></div>
+                </div>
+            </div>
+            <div class="indexicon">
+                <div class="w1200">
+                    <h2>Features</h2>
+                    <em></em>
+                    <ul style="margin-top: 57px;">
+                        <li class="icon1">
+                            <a href="javascript:void(0)">
+                                <div class="iconimg"></div>
+                                <i class="iconfont">&#xe649;</i>
+                                <div class="icontext">
+                                    <h4>Flexible Learning</h4>
+                                    <p style="width: 210px">
+                                        Students can learn anywhere
+                                        and anytime
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="icon2">
+                            <a href="javascript:void(0)">
+                                <div class="iconimg"></div>
+                                <i class="iconfont">&#xe649;</i>
+                                <div class="icontext">
+                                    <h4>Self-paced Learning</h4>
+                                    <p style="width: 210px">
+                                        Students can learn according
+                                        their own pace
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="icon3">
+                            <a href="javascript:void(0)">
+                                <div class="iconimg"></div>
+                                <i class="iconfont">&#xe649;</i>
+                                <div class="icontext">
+                                    <h4>Learning with Fun</h4>
+                                    <p style="width: 300px">
+                                        VR simulations and experiments
+                                        provide students with interesting
+                                        learning experience
+                                        with interesting learning experience
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footertop">
+            <div class="w1200 footer-wrapper">
+                <div class="footerLeft">
+                    <p>College of International Education</p>
+                    <p>Website: http://www.cie.hkbu.edu.hk</p>
+                    <p>Email: XXX@hkbu.edu.hk</p>
+                    <p>Tel: (852) XXXX XXXx</p>
+                </div>
+                <div class="footer-right">
+                    <div class="item">
+                        <h2>About Us</h2>
+                        <div class="footerfg"></div>
+                        <ul class="footernav">
+                            <li><a href="about-silver.html">About SILVER</a></li>
+                            <li><a href="about-qess.html">About QESS</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h2>Courses</h2>
+                        <div class="footerfg"></div>
+                        <ul class="footernav">
+                            <li><a href="chemistry.html">Chemistry</a></li>
+                            <li><a href="biology.html">Biology</a></li>
+                            <li><a href="lab-safety.html">Lab Safety</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h2>Useful Links</h2>
+                        <div class="footerfg"></div>
+                        <ul class="footernav">
+                            <li><a href="http://www.hkbu.edu.hk/eng/main" target="_blank">HKBU</a></li>
+                            <li><a href="https://www.cie.hkbu.edu.hk/main/en/" target="_blank">HKBU CIE</a></li>
+                            <li><a href="https://www.cie.hkbu.edu.hk/main/en/programmes/associate_degree_programme/as"
+                                   target="_blank">Division of Applied Science</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerbot">Copyright © 2021 College of International Education, HKBU. AII rights reserved.</div>
+    </div>
 </div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/common.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    function showCourseItem(index) {
+        var $itemList = $(".indexitem .itemli")
+        var activeIndex = index % $itemList.length
+        var currShowItem = $itemList.eq(activeIndex)
+        currShowItem.show().css('display', 'flex').siblings('.itemli').hide()
+    }
+
+    new Swiper('.course-swiper', {
+        speed: 300,
+        slidesPerView: 3,
+        slidesPerGroup: 1,
+        autoplay: false,
+        slideToClickedSlide: true,
+        // centeredSlides : true,
+        on: {
+            click: function (swiper) {
+                $('.indexitem').fadeIn()
+                showCourseItem(swiper.clickedIndex)
+            },
+            slideChangeTransitionEnd: function (swiper) {
+                showCourseItem(swiper.activeIndex)
+            }
+        },
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.course-next-btn',
+            prevEl: '.course-prev-btn'
+        }
+    })
+    new Swiper('.news-swiper', {
+        loop: true, // 循环模式选项
+        speed: 300,
+        slidesPerView: 4,
+        slidesPerGroup: 1,
+        autoplay: {
+            delay: 3000
+        },
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.news-next-btn',
+            prevEl: '.news-prev-btn'
+        }
+    })
+
+    var expbut1Swiper = new Swiper('#expbut1s', {
+        observer: true,
+        observeParents: true,
+        slidesPerView: 4,
+        spaceBetween: 20,
+        slidesPerGroup: 1,
+        pagination: {
+            el: '.swp2'
+        },
+        navigation: {
+            nextEl: '.next2',
+            prevEl: '.prev2'
+        }
+
+    })
+    var expbut2Swiper = new Swiper('#expbut2s', {
+        observer: true,
+        observeParents: true,
+        slidesPerView: 4,
+        spaceBetween: 20,
+        slidesPerGroup: 1,
+        pagination: {
+            el: '.swp3'
+        },
+        navigation: {
+            nextEl: '.next3',
+            prevEl: '.prev3'
+        }
+
+    })
+    var expbut3Swiper = new Swiper('#expbut3s', {
+        observer: true,
+        observeParents: true,
+        slidesPerView: 4,
+        spaceBetween: 20,
+        slidesPerGroup: 1,
+        pagination: {
+            el: '.swp4'
+        },
+        navigation: {
+            nextEl: '.next4',
+            prevEl: '.prev4'
+        }
+
+    })
+
+
+</script>
 </body>
 </html>

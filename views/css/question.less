@@ -1,0 +1,111 @@
+.content-wrapper {
+  min-height: calc(100vh - 90px);
+  width: 100%;
+  background: url("../images/login.png") no-repeat center top;
+  background-size: cover;
+  background-position: center 0;
+  overflow: auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.content {
+  width: 1200px;
+  margin: 38px auto;
+  .logo {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .title {
+    margin: 25px 0;
+    color: #fff;
+    font-size: 22px;
+  }
+  .question-list {
+    padding: 14px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    .item {
+      margin-bottom: 20px;
+      padding: 12px;
+      border-radius: 4px;
+      background-color: #e6ecf2;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+      .question-name {
+        line-height: 1.2;
+        margin-bottom: 20px;
+        font-size: 19px;
+        font-weight: bold;
+        color: #333333;
+        word-break: break-all;
+      }
+      .options {
+        .option-item {
+          .flex;
+          margin-bottom: 25px;
+          cursor: pointer;
+          &:last-of-type {
+            margin-bottom: 0;
+          }
+          .radio {
+            margin-right: 7px;
+            width: 19px;
+            height: 19px;
+            border: solid 1px #255e91;
+            border-radius: 50%;
+            &.active {
+              background: #255e91;
+            }
+          }
+          .text {
+            color: #333;
+            font-size: 16px;
+          }
+        }
+      }
+      .test {
+        .flex;
+        .test-title {
+          text-align: center;
+          font-weight: bold;
+          &:first-of-type {
+            margin-right: 50px;
+          }
+          &:last-of-type {
+            margin-left: 50px;
+          }
+        }
+        .option-item {
+          margin: 0 15px;
+          justify-content: center;
+          flex-direction: column;
+          .radio {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .buttons {
+      margin: 22px 0;
+      .flex;
+      justify-content: center;
+      .btn {
+        cursor: pointer;
+        margin: 0 12px;
+        .flex;
+        justify-content: center;
+        width: 120px;
+        height: 40px;
+        background-color: #0063A6;
+        border-radius: 8px;
+        font-size: 19px;
+        color: #ffffff;
+      }
+    }
+  }
+}

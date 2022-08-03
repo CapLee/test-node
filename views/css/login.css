@@ -1,0 +1,156 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background: url("../images/login.png") no-repeat center top;
+  background-size: 100% 100vh;
+  overflow: auto;
+}
+.login {
+  margin-bottom: 20px;
+}
+.loginBox {
+  margin: 0 auto;
+  width: 503px;
+  height: auto;
+  position: relative;
+}
+.loginBox .logog {
+  text-align: center;
+  margin: 22px 17% 27px 16%;
+}
+.login-logo {
+  display: block;
+  margin: 38px auto;
+  width: 1200px;
+  height: 331px;
+  border-radius: 10px;
+}
+.loginForm {
+  display: block;
+  padding: 36px 17% 17px 17%;
+  background: #fff;
+  border-radius: 10px;
+}
+.required {
+  color: red;
+}
+.loginForm .title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 28px;
+  display: none;
+  color: #000;
+}
+.loginForm .title h2.Login {
+  display: block;
+}
+.Button {
+  display: block;
+}
+.Button .buttonicon {
+  width: 150px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #E5E5E5;
+  color: #171717;
+  font-size: 19px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.Button .buttonicon:first-child {
+  margin-left: 0;
+}
+.Button .buttonicon.active {
+  background: #002844;
+  color: #fff;
+}
+.form {
+  width: 100%;
+  height: auto;
+  margin-top: 35px;
+}
+.form .row {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.form .row:last-child {
+  margin-bottom: 0 !important;
+}
+.form .row label {
+  display: block;
+  font-size: 19px;
+  color: #000;
+  padding-bottom: 10px;
+}
+.form .row input {
+  width: 93%;
+  border-radius: 5px;
+  padding: 11px 10px;
+  background: #f2f2f2;
+  border: none;
+  font-size: 19px;
+}
+.formLogin {
+  display: block;
+}
+.formGuest {
+  display: none;
+}
+.loginBut {
+  display: block;
+  width: 100%;
+}
+.loginBut input[type='button'] {
+  border: none;
+  width: 100%;
+  font-size: 19px;
+  color: #fff;
+  background: #333;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.loginBut a {
+  display: block;
+  text-align: center;
+  font-size: 19px;
+  color: #999;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+select.weui-select {
+  width: 100%;
+  border-radius: 5px;
+  padding: 11px 10px;
+  border: none;
+  font-size: 19px;
+  color: #333;
+  appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  background: url('../images/down.png') 90% 50% no-repeat;
+  background-size: 13px 7px;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+.formGuest > .loginBut {
+  display: block;
+  width: 62%;
+  margin: 0 auto;
+}
+.layui-layer-tips {
+  width: auto!important;
+}
+.layui-layer-tips .layui-layer-content {
+  font-family: Lato!important;
+  font-size: 19px!important;
+}

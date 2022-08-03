@@ -1,0 +1,113 @@
+.content-wrapper {
+  min-height: calc(100vh - 90px);
+  width: 100%;
+  background: url("../images/login.png") no-repeat center top;
+  background-size: cover;
+  background-position: center 0;
+  overflow: auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.content {
+  width: 1200px;
+  margin: 38px auto;
+}
+.content .logo {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.content .title {
+  margin: 25px 0;
+  color: #fff;
+  font-size: 22px;
+}
+.content .question-list {
+  padding: 14px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.content .question-list .item {
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #e6ecf2;
+}
+.content .question-list .item:last-of-type {
+  margin-bottom: 0;
+}
+.content .question-list .item .question-name {
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #333333;
+  word-break: break-all;
+}
+.content .question-list .item .options .option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.content .question-list .item .options .option-item:last-of-type {
+  margin-bottom: 0;
+}
+.content .question-list .item .options .option-item .radio {
+  margin-right: 7px;
+  width: 19px;
+  height: 19px;
+  border: solid 1px #255e91;
+  border-radius: 50%;
+}
+.content .question-list .item .options .option-item .radio.active {
+  background: #255e91;
+}
+.content .question-list .item .options .option-item .text {
+  color: #333;
+  font-size: 16px;
+}
+.content .question-list .item .test {
+  display: flex;
+  align-items: center;
+}
+.content .question-list .item .test .test-title {
+  text-align: center;
+  font-weight: bold;
+}
+.content .question-list .item .test .test-title:first-of-type {
+  margin-right: 50px;
+}
+.content .question-list .item .test .test-title:last-of-type {
+  margin-left: 50px;
+}
+.content .question-list .item .test .option-item {
+  margin: 0 15px;
+  justify-content: center;
+  flex-direction: column;
+}
+.content .question-list .item .test .option-item .radio {
+  margin-right: 0;
+}
+.content .question-list .buttons {
+  margin: 22px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .question-list .buttons .btn {
+  cursor: pointer;
+  margin: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  background-color: #0063A6;
+  border-radius: 8px;
+  font-size: 19px;
+  color: #ffffff;
+}
